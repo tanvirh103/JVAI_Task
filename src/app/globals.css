@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* globals.css */
+/* @tailwind base;
+@tailwind components; */
+@tailwind utilities;
+
+body {
+  background-color: #ffffff;
+  color: #FFFFFF;
+  text-shadow: #909091;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #71717a5c;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #71717a5c;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #71717a5c;
+}
+
+
