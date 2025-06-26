@@ -1,4 +1,4 @@
-import { Chartwright, Redactify, TranscriptX, Validation } from "../Content/Othersolution";
+import { Chartwright, Redactify, TranscriptX, Validation } from "../../app/Content/Othersolution";
 
 export default function Othersolutions(){
     return(
