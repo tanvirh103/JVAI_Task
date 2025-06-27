@@ -16,7 +16,7 @@ export default function GetStarted() {
           <div className="rounded-[8px] w-[600px] h-[120px] border-[#2b4161] border">
             <div className="text-[16px] font-[400] text-[#889bb0] mt-16">
               Or reach us directly via email at{" "}
-              <Link className="text-[16px] font-[400] text-[#599df4]" href={""}>
+              <Link className="text-[16px] font-[400] text-[#599df4]" href={"mailto:support@clintechso.com"}>
                 support@clintechso.com{" "}
               </Link>
             </div>
@@ -24,13 +24,13 @@ export default function GetStarted() {
           <div className="flex justify-center pt-12 gap-6 pb-6">
             <Link
               className="border-[#3b82f6] border-2 hover:bg-[#0E1B36] text-[#E5E6E9] font-[400] text-[16px] px-6 py-3 rounded-[24px]"
-              href={""}
+              href={"/login"}
             >
               Login
             </Link>
             <Link
               className="bg-[#2D6EEF] text-[#FFFFFF] font-[400] text-[16px] px-6 py-3 rounded-[24px] hover:shadow-[#2d6eefe8] hover:shadow-md hover:transition-all duration-300"
-              href={""}
+              href={"/signup"}
             >
               Signup
             </Link>

@@ -29,8 +29,9 @@ export default function Benefit() {
           </div>
         </div>
           <div className="flex justify-center pt-8 gap-6 pb-6">
-        <Link className="border-[#3b82f6] border-2 hover:bg-[#0E1B36] text-[#E5E6E9] font-[400] text-[16px] px-6 py-3 rounded-[20px]" href={''}>Login</Link>
-        <Link className="bg-[#2D6EEF] text-[#FFFFFF] font-[400] text-[16px] px-6 py-3 rounded-[20px] hover:shadow-[#2d6eefe8] hover:shadow-md hover:transition-all duration-300" href={''}>Signup</Link>
+        <Link className="border-[#3b82f6] border-2 hover:bg-[#0E1B36] text-[#E5E6E9] font-[400] text-[16px] px-6 py-3 rounded-[20px]" href={'/login'}>Login</Link>
+        <Link className="bg-[#2D6EEF] text-[#FFFFFF] font-[400] text-[16px] px-6 py-3 rounded-[20px] hover:shadow-[#2d6eefe8] hover:shadow-md hover:transition-all duration-300" href={'/signup'}>Signup</Link>
+
 
       </div>
       </div>

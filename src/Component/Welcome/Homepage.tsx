@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Homepage() {
   return (
     <div className="bg-[#0a0f22]">
-      <div className="my-auto pt-6 pb-36 max-w-1400px lg:max-w-[1400px] 2xl:max-w-[1560px] md:max-w-[1200px] sm:max-w-[1020px] mx-auto px-4 2xl:px-12 lg:px-8">
+      <div className="my-auto pt-12 pb-36 max-w-1400px lg:max-w-[1400px] 2xl:max-w-[1560px] md:max-w-[1200px] sm:max-w-[1020px] mx-auto px-4 2xl:px-12 lg:px-8">
         <div className="absolute w-[250px] h-[250px] rounded-full bg-[radial-gradient(circle,rgba(59,130,246,0.3)_0%,rgba(59,130,246,0)_70%)] pointer-events-none z-2 opacity-0 transition-opacity duration-300 blur-xl"></div>
         <div className="flex justify-center mb-28 mt-16">
           <svg

@@ -57,13 +57,13 @@ export default function SignUp(){
           <input
             type="password"
             className="w-[450px] h-[36px] border-[#d1d5db] border rounded-[8px] focus:outline-[#5582ff] text-[#000000] text-[14px] font-[400] px-2 mt-2"
-            placeholder="Enter Password"
+            placeholder="Enter New Password"
           />
           <p className="text-[14px] font-[400] text-[#000000] mt-4">Confirm Password</p>
           <input
             type="password"
             className="w-[450px] h-[36px] border-[#d1d5db] border rounded-[8px] focus:outline-[#5582ff] text-[#000000] text-[14px] font-[400] px-2 mt-2"
-            placeholder="Enter Password"
+            placeholder="Confirm New Password"
           />
         </div>
         
