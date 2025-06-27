@@ -1,3 +1,5 @@
+
+import Action from "@/Component/Welcome/Action";
 import Aboutpage from "../Component/Welcome/Aboutpage";
 import Benefit from "../Component/Welcome/Benefit";
 import Caseuse from "../Component/Welcome/Caseuse";
@@ -15,6 +17,7 @@ export default function Home() {
       <Homepage />
       <Aboutpage />
       <Othersolutions/>
+      <Action/>
       <OurTechnology/>
       <Benefit/>
       <Caseuse/>
