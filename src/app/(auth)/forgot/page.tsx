@@ -1,9 +1,9 @@
 import Link from "next/link";
 
-export default function SignUp(){
-    return(
-       <div className="my-auto">
-      <center className="">
+export default function Forgot() {
+  return (
+    <div className="my-auto">
+      <center className="pt-24">
           <div className="flex justify-center mb-28 mt-24">
           <svg
             className="absolute w-[100px] h-[100px] animate-[pulse_5s_infinite] filter drop-shadow-[0_0_15px_rgba(96,165,250,0.5)]"
@@ -38,10 +38,10 @@ export default function SignUp(){
         <div className="mt-6 mb-4">
           {" "}
           <p className="text-[30px] font-[700] text-[#000000]">
-         Create account
+       Forgot Password
           </p>
           <p className="text-[14px] font-[400] text-[#5b6471]">
-            Enter The Email Address Associated With Your Account. We'll <br /> Send You An OTP To Your Email.
+     Enter your email below to reset your password
           </p>
         </div>
       </center>
@@ -53,31 +53,19 @@ export default function SignUp(){
             className="w-[450px] h-[36px] border-[#d1d5db] border rounded-[8px] focus:outline-[#5582ff] text-[#000000] text-[14px] font-[400] px-2 mt-2"
             placeholder="Enter Email"
           />
-          <p className="text-[14px] font-[400] text-[#000000] mt-4">New Password</p>
-          <input
-            type="password"
-            className="w-[450px] h-[36px] border-[#d1d5db] border rounded-[8px] focus:outline-[#5582ff] text-[#000000] text-[14px] font-[400] px-2 mt-2"
-            placeholder="Enter Password"
-          />
-          <p className="text-[14px] font-[400] text-[#000000] mt-4">Confirm Password</p>
-          <input
-            type="password"
-            className="w-[450px] h-[36px] border-[#d1d5db] border rounded-[8px] focus:outline-[#5582ff] text-[#000000] text-[14px] font-[400] px-2 mt-2"
-            placeholder="Enter Password"
-          />
         </div>
-        
         <div className="mt-6">
           <input
             type="submit"
             className="rounded-[8px] text-[14px] font-[400] w-[450px] py-2 px-6 bg-[#225cff] text-white"
-            value="Sign Up"
+            value="Send OTP"
           />
           <p className="flex justify-center mt-4 text-[14px] font-[400] text-[#7192aa]">
-            Already Have An Account?{" "}<Link href={'/login'} className="text-[#5e82f6]">Login</Link>
+           Remember your password? {" "} <Link href={'/login'} className="text-[#5e82f6]">Login</Link>
+
           </p>
         </div>
       </div>
     </div>
-    )
+  );
 }

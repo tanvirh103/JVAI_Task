@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-export default function SignUp(){
-    return(
-       <div className="my-auto">
+export default function Login() {
+  return (
+    <div className="my-auto">
       <center className="">
           <div className="flex justify-center mb-28 mt-24">
           <svg
@@ -38,10 +38,10 @@ export default function SignUp(){
         <div className="mt-6 mb-4">
           {" "}
           <p className="text-[30px] font-[700] text-[#000000]">
-         Create account
+            Hello, Welcome!
           </p>
           <p className="text-[14px] font-[400] text-[#5b6471]">
-            Enter The Email Address Associated With Your Account. We'll <br /> Send You An OTP To Your Email.
+            Please Enter Your Details Below To Continue
           </p>
         </div>
       </center>
@@ -53,31 +53,36 @@ export default function SignUp(){
             className="w-[450px] h-[36px] border-[#d1d5db] border rounded-[8px] focus:outline-[#5582ff] text-[#000000] text-[14px] font-[400] px-2 mt-2"
             placeholder="Enter Email"
           />
-          <p className="text-[14px] font-[400] text-[#000000] mt-4">New Password</p>
-          <input
-            type="password"
-            className="w-[450px] h-[36px] border-[#d1d5db] border rounded-[8px] focus:outline-[#5582ff] text-[#000000] text-[14px] font-[400] px-2 mt-2"
-            placeholder="Enter Password"
-          />
-          <p className="text-[14px] font-[400] text-[#000000] mt-4">Confirm Password</p>
+          <p className="text-[14px] font-[400] text-[#000000] mt-4">Password</p>
           <input
             type="password"
             className="w-[450px] h-[36px] border-[#d1d5db] border rounded-[8px] focus:outline-[#5582ff] text-[#000000] text-[14px] font-[400] px-2 mt-2"
             placeholder="Enter Password"
           />
         </div>
-        
+        <div className="flex justify-between mt-4 items-center">
+          <div className="flex justify-start gap-1">
+            <input type="checkbox" />
+            <p className="text-[14px] font-[400] text-[#000000]">Remember me</p>
+          </div>
+          <div className="flex justify-end">
+            <Link href={'/forgot'} className="text-[14px] font-[400] text-[#5e82f6]">
+              Forgot Password?
+            </Link>
+          </div>
+        </div>
         <div className="mt-6">
           <input
             type="submit"
             className="rounded-[8px] text-[14px] font-[400] w-[450px] py-2 px-6 bg-[#225cff] text-white"
-            value="Sign Up"
+            value="Login"
           />
           <p className="flex justify-center mt-4 text-[14px] font-[400] text-[#7192aa]">
-            Already Have An Account?{" "}<Link href={'/login'} className="text-[#5e82f6]">Login</Link>
+            create account, <Link href={'/signup'} className="text-[#5e82f6]">sign up</Link>
+
           </p>
         </div>
       </div>
     </div>
-    )
+  );
 }
